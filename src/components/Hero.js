@@ -13,14 +13,16 @@ const Hero = () => {
             traditional recipes served with a modern twist.
           </p>
           <Link to="/reservations">
-            <button className="btn">Reserve a Table</button>
+            <button className="btn text-black hover:bg-[#E4BE04] transition-colors duration-300">
+              Reserve a Table
+            </button>
           </Link>
         </div>
         <div className="relative h-[400px]">
           <img
             src="/images/Hero_img.jpg"
             alt="Featured Dish"
-            className="absolute right-0 rounded-2xl object-cover w-full h-full"
+            className="absolute right-0 w-full h-full object-cover rounded-2xl"
           />
         </div>
       </div>

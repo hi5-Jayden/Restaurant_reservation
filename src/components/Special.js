@@ -9,10 +9,10 @@ const SpecialCard = ({ title, price, description, image }) => (
         <span className="highlight-text text-[#EE9972]">${price}</span>
       </div>
       <p className="paragraph-text mb-4">{description}</p>
-      <button className="flex items-center font-bold">
+      <button className="flex items-center font-bold hover:text-[#495E57] transition-colors duration-300">
         Order a delivery
         <img
-          src="/images/delivery-icon.svg"
+          src="/images/delivery.png"
           alt="Delivery"
           className="ml-2 w-6 h-6"
         />

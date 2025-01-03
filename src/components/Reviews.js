@@ -23,31 +23,31 @@ const ReviewCard = ({ name, rating, review, image }) => (
 const Reviews = () => {
   const reviews = [
     {
-      name: 'Reviewer name',
+      name: 'Sarah Mitchell',
       rating: 5,
       review:
-        'Add 1-2 lines of mock text for this review. Add 1-2 lines of mock text for this review.',
+        'The Mediterranean flavors here are absolutely authentic! The grilled seafood platter was exceptional.',
       image: '/images/reviewer_1.jpg',
     },
     {
-      name: 'Reviewer name',
+      name: 'John Anderson',
       rating: 5,
       review:
-        'Add 1-2 lines of mock text for this review. Add 1-2 lines of mock text for this review.',
+        'Best bruschetta in Chicago! The atmosphere is cozy and the service is always impeccable.',
       image: '/images/reviewer_2.jpg',
     },
     {
-      name: 'Reviewer name',
+      name: 'Maria Garcia',
       rating: 5,
       review:
-        'Add 1-2 lines of mock text for this review. Add 1-2 lines of mock text for this review.',
+        'Their lemon dessert is heavenly! Truly feels like a family recipe passed down through generations.',
       image: '/images/reviewer_3.jpg',
     },
     {
-      name: 'Reviewer name',
+      name: 'David Chen',
       rating: 5,
       review:
-        'Add 1-2 lines of mock text for this review. Add 1-2 lines of mock text for this review.',
+        'Amazing food and excellent service. The Greek salad here is a must-try. Will definitely come back!',
       image: '/images/reviewer_4.jpg',
     },
   ];

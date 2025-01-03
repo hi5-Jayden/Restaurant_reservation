@@ -5,11 +5,11 @@ const Footer = () => {
   return (
     <footer className="bg-[#495E57] text-white py-16">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
-        <div>
+        <div className="flex items-start">
           <img
             src="/images/footerLogo.png"
             alt="Little Lemon"
-            className="h-16 mb-4"
+            className="h-64"
           />
         </div>
 

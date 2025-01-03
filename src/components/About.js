@@ -16,12 +16,12 @@ const About = () => {
           <img
             src="/images/MarioAdrian_1.jpg"
             alt="Mario and Adrian 1"
-            className="absolute right-16 top-0 w-4/5 h-80 object-cover rounded-2xl"
+            className="absolute w-3/4 h-80 object-cover rounded-2xl z-10 right-0 top-0"
           />
           <img
             src="/images/MarioAdrian_2.jpg"
             alt="Mario and Adrian 2"
-            className="absolute left-16 bottom-0 w-4/5 h-80 object-cover rounded-2xl"
+            className="absolute w-3/4 h-80 object-cover rounded-2xl left-0 bottom-0"
           />
         </div>
       </div>
