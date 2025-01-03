@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500&family=Karla:wght@400;500;700;800&display=swap');
+
+:root {
+  --primary-green: #495e57;
+  --primary-yellow: #f4ce14;
+  --secondary-peach: #ee9972;
+  --secondary-light-peach: #fbdabb;
+  --secondary-light-gray: #edefee;
+  --secondary-offwhite: #faf4ec;
+  --secondary-dark-gray: #333333;
+}
+
+body {
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+}
+
+@layer components {
+  .display-title {
+    @apply font-markazi text-[64px] font-medium m-0;
+  }
+
+  .sub-title {
+    @apply font-markazi text-[40px] font-normal m-0;
+  }
+
+  .lead-text {
+    @apply text-lg font-medium;
+  }
+
+  .section-title {
+    @apply text-xl font-extrabold uppercase;
+  }
+
+  .card-title {
+    @apply text-lg font-bold;
+  }
+
+  .paragraph-text {
+    @apply text-base font-normal;
+  }
+
+  .highlight-text {
+    @apply text-base font-medium;
+  }
+
+  .btn {
+    @apply bg-[#F4CE14] border-none rounded-2xl px-6 py-3 font-karla font-medium cursor-pointer shadow-md;
+  }
+}
