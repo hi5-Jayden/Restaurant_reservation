@@ -1,4 +1,5 @@
 import React from 'react';
+import { getImagePath } from '../utils/imagePath';
 
 const SpecialCard = ({ title, price, description, image }) => (
   <article className="bg-[#EDEFEE] rounded-2xl overflow-hidden">

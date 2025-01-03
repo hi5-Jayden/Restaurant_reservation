@@ -1,5 +1,6 @@
 import React from 'react';
 import { Star } from 'lucide-react';
+import { getImagePath } from '../utils/imagePath';
 
 const ReviewCard = ({ name, rating, review, image }) => (
   <article className="bg-white p-6 rounded-2xl shadow-md">
