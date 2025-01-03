@@ -1,4 +1,5 @@
 export const getImagePath = (imageName) => {
-  // This will handle both development and production paths
-  return `${process.env.PUBLIC_URL}/images/${imageName}`;
+  const isGitHubPages = window.location.hostname.includes('github.io');
+  const basePath = isGitHubPages ? '/Restaurant_reservation' : '';
+  return `${basePath}/images/${imageName}`;
 };

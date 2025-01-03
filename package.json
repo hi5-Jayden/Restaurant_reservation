@@ -2,7 +2,7 @@
   "name": "little-lemon",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hi5-Jayden.github.io/Restaurant_reservation",
+  "homepage": "https://hi5-jayden.github.io/Restaurant_reservation",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
